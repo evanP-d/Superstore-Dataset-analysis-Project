@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude plan files (outside project)
+.claude/
+
+# Tableau extracts / temporary
+*.tde
+*.hyper
+TableauTemp/
+*.twbr
+
+# Plotly / matplotlib temporary
+*.html~
+reports/build_report.py
